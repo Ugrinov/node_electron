@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheets" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sqrt Root</title>
+</head>
+<body>
+        <div class="header">
+            <div class="sp"></div>
+            <div class="icon"></div>
+            <div class ="win-btn btn-lng"><i class="fa fa-language"></i></div>
+            <div class="win-btn link-vk"><a target="_blank" href="https://vk.com/club207103949"><i class="fa fa-vk" aria-hidden="true"></i>
+            </a></div>
+            <div class="title"><h1>Sqrt Root</h1></div>
+            <div class="win-btn btn-min"><i class="fa fa-window-minimize"></i></div>
+            <div class="win-btn btn-max"><i class="fa fa-window-maximize"></i></div>
+            <div class="win-btn btn-close"><i class="fa fa-times"></i></div>
+            <div class="sp"></div>
+        </div>
+        <main>
+            <form autocomplete="on" method="post" action="" onsubmit="return false">
+                <label for="text">Найти квадратный корень</label>
+                <input class="text" name="text" id="text" type="text" placeholder="Число">
+                <label for="number">Округление</label>
+                <input class="number" type="number" name="number" id="number" value="1" min="1">
+                <button class="btn-sbm" type="submit">Решить</button>
+            </form>
+        </main>
+        <footer>
+            <div class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Угринов, Кулижский, Главатских, Митюшкина, 2021</div>
+        </footer>
+    <script src="./js/renderer.js"></script>
+</body>
+</html>

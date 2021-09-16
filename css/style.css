@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #121212;
+    color: #cccccc;
+}
+
+form {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+main {
+    position: relative;
+    flex: 1;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10px 40px 50px 50px 1fr 50px 50px 50px 10px;
+    background-color: #212121;
+}
+
+div.header > div.title {
+    -webkit-app-region: drag;
+}
+
+div.win-btn {
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+    transition: all .3s ease-in-out;
+}
+
+div.win-btn:hover {
+    background-color: #333333;
+    transition: all .3s ease-in-out;
+}
+
+div.win-btn:hover {
+    background-color: #121212;
+    transition: all .3s ease-in-out;
+}
+
+div.btn-lng, div.link-vk {
+    font-size: 25px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+label[for="text"]  {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+label[for="number"]
+{
+    font-size: 30px;
+}
+input {
+    margin: 0;
+    width: 300px;
+    heigth: 100px;
+    line-height: 30px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
+
+input, label, button {
+    margin-bottom: 10px;
+}
+.title > h1 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header > div.win-btn {
+    cursor: pointer;
+}
